@@ -1,0 +1,26 @@
+{
+    "name": "serverless-restful-server",
+    "version": "1.0.0",
+    "description": "Serverless RESTful server",
+    "main": "index.js",
+    "scripts": {
+        "start": "serverless offline start -s local --port 8080",
+        "test": "eslint src/**"
+    },
+    "keywords": [
+        "serverless",
+        "lambda",
+        "rest"
+    ],
+    "author": "Maria Santos",
+    "license": "MIT",
+    "devDependencies": {
+        "aws-sdk": "^2.366.0",
+        "eslint": "^5.16.0",
+        "js-yaml": "^3.13.0",
+        "serverless-offline": "^3.33.0"
+    },
+    "dependencies": {
+        "lodash": "^4.17.11"
+    }
+}

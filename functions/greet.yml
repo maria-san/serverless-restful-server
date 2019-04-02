@@ -1,0 +1,13 @@
+hello:
+  handler: src/handlers/greet/hello.process
+  events:
+    - http:
+        method: get  
+        path: hello
+
+hi:
+  handler: src/handlers/greet/hi.process
+  events:
+    - http:
+        method: post  
+        path: hi

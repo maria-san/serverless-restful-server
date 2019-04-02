@@ -1,0 +1,4 @@
+/.project
+node_modules/
+.serverless/
+serverless.env.yml
