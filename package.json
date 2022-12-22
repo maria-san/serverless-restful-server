@@ -18,7 +18,7 @@
         "aws-sdk": "^2.366.0",
         "eslint": "^5.16.0",
         "js-yaml": "^3.13.0",
-        "serverless-offline": "^3.33.0"
+        "serverless-offline": "^12.0.3"
     },
     "dependencies": {
         "lodash": "^4.17.11"
